@@ -1,0 +1,419 @@
+body {
+  font-family: 'Black Ops One', cursive;
+}
+
+.deus {
+  color: #248cdb;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+
+html {
+  background-color: #5e4545;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 0 auto;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #000000;
+}
+
+button {
+  width: 100px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  text-align: center;
+
+}
+
+.titulo {
+  text-align: center;
+  color: black;
+}
+
+.tituloincio {
+  text-align: center;
+}
+
+.pave {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.youtupeplayer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pesquisa {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.incredientes {
+  color: #000000;
+}
+
+.sobre {
+  color: #0c0aa4;
+}
+
+.nave {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.zap {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.iniciobutton {
+  border-color: #000000;
+  border-radius: 50px;
+  color: #00539f;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+  cursor: pointer;
+}
+.iniciobutton:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #00539f;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+.iniciobutton:hover {
+  color: #fff;
+}
+.iniciobutton:hover:after {
+  width: 110%;
+}
+
+.sobrebutton {
+  border-color: #000000;
+  border-radius: 50px;
+  color: #00539f;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+  cursor: pointer;
+}
+.sobrebutton:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #00539f;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+.sobrebutton:hover {
+  color: #fff;
+}
+.sobrebutton:hover:after {
+  width: 110%;
+}
+
+.contatosbutton {
+  border-color: #000000;
+  border-radius: 50px;
+  color: #00539f;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+  cursor: pointer;
+}
+.contatosbutton:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #00539f;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+.contatosbutton:hover {
+  color: #fff;
+}
+.contatosbutton:hover:after {
+  width: 110%;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.comentario {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.div1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banana {
+  font-size: 50px;
+}
+
+.bmw {
+  border-radius: 50px;
+}
+
+.textoinicio {
+  font-size: 20px;
+}
+
+.academia {
+  border-color: #000000;
+  border-radius: 50px;
+  color: #00539f;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+  cursor: pointer;
+}
+.academia:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #00539f;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+.academia:hover {
+  color: #fff;
+}
+.academia:hover:after {
+  width: 110%;
+}
+
+.voltargg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #251ab7;
+  border-radius: 30px;
+
+}
+
+.supino {
+  justify-content: space-around;
+  text-align: space-around;
+  display: flex;
+}
+
+
+.div1 {
+  display: flexbox;
+
+}
+
+.log {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fit {
+  border-color: #000000;
+  border-radius: 50px;
+  color: #00539f;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+  cursor: pointer;
+}
+.fit:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #00539f;
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+.fit:hover {
+  color: #fff;
+}
+.fit:hover:after {
+  width: 110%;
+}
+
+.ficha {
+  text-align: center;
+}
+
+.conteudo {
+  text-align: center;
+}
+
+.organizar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.acde {
+  border-radius: 30px;
+}
+#divBusca{
+  background-color:#0f2a43;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+  color: white;
+}
+#btnBusca{
+  cursor: pointer;
+}
+.supinoimg1{
+  border:solid 2px;
+}
+.imgssup{
+  justify-content: space-around;
+  text-align: space-around;
+  display: flex;
+}
+.txtimg{
+  justify-content: space-around;
+  text-align: space-around;
+  display: flex;
+}
+.perna{
+  text-align: center;
+  color: #1d0085;
+}
+.perito{
+  text-align: center;
+  color: #1d0085;
+}
+.imgsuup{
+  justify-content: space-around;
+  text-align: space-around;
+  display: flex;
+}
+.txtlog{
+  justify-content: space-around;
+  text-align: space-around;
+  display: flex;
+}
+.costas{
+  justify-content: space-around;
+  text-align: space-around;
+  display: flex;
+}
+.txtlo{
+  justify-content: space-around;
+  text-align: space-around;
+  display: flex;
+}
+.costinhas{
+  text-align: center;
+  color: #1d0085;
+}
+.animals{
+  display: none;
+}
+.lista2{
+  display: none;
+}
+.corpo{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: solid 2px black;
+  display: none;
+}
